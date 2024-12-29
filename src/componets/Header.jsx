@@ -32,7 +32,7 @@ function Header() {
           </li>
 
           <li>
-            <NavLink  className="text-gray-500 transition hover:text-gray-500/75" to="#"> Services </NavLink>
+            <NavLink  className="text-gray-500 transition hover:text-gray-500/75" to="/shop">Shop </NavLink>
           </li>
 
           <li>
@@ -56,9 +56,9 @@ function Header() {
 
           <NavLink 
             className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-            to="#"
+            to="/login"
           >
-            Register
+           Login 
           </NavLink>
         </div>
 
